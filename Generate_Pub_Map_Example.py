@@ -12,7 +12,7 @@ from Dictionary_of_Pubs import pubs_visited
 # Mapbox ask to include this attribute too, but I'm leaving it out at the moment because it takes up too much space. <strong><a href="https://www.mapbox.com/map-feedback/" target="_blank">Improve this map</a></strong>
 
 # Create the map. Location is the centre of map.
-OxfordshireMap = folium.Map(location=[51.7831, -1.3065], tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png', attr='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors', zoom_start=9, max_zoom=19, control_scale=True)  # width=50%,
+OxfordshireMap = folium.Map(location=[13.746794, 100.559265], tiles='https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png', attr='&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors', zoom_start=9, max_zoom=19, control_scale=True)  # width=50%,
 
 # Define county boundary and shading style
 border_style = {'color': '#000000', 'weight': '1.5', 'fillColor': '#58b5d1', 'fillOpacity': 0.08}
